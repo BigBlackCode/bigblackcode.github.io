@@ -15,37 +15,37 @@ class Index extends React.Component {
                 <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                     <header className="header mb-5">
                         <div className="inner">
-                            <img src={bigblackcodeText} className="header-brand mb-4" alt="BigBlackCode"/>
-                            <nav className="nav nav-header justify-content-center">
-                                <Link className="nav-link active" to="/">Home</Link>
+                            <Link to="/">
+                                <img src={bigblackcodeText} className="header-brand mb-4" alt="BigBlackCode"/>
+                            </Link>
+                            <nav className="nav nav-header nav-main justify-content-center">
                                 <Link className="nav-link" to="/about">About</Link>
-                                <Link className="nav-link" to="/team">Team</Link>
-                                <Link className="nav-link" to="/projects">Projects</Link>
+                                <Link className="nav-link" to="/games">Games</Link>
                                 <Link className="nav-link" to="/blog">Blog</Link>
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </nav>
                         </div>
                     </header>
 
-                    <main className="inner cover">
-                        <h2 className="cover-heading mb-5">Team of Multimedia Artists</h2>
+                    <main className="inner cover py-5">
+                        <h2 className="cover-heading my-5">Team of Multimedia Artists</h2>
 
-                        <p className="lead mb-5">
+                        <p className="lead my-5">
                             Get to know the BigBlackCode team, the projects and the roadmap.
                         </p>
 
-                        <p className="mb-5">
+                        <div className="my-5">
                             <Link to={'/about'}>
                                 <div className={'bigblackcode-button p-5 mb-5 d-inline-block w-25 h-25'}></div>
                             </Link>
 
-                            <h4 className={'insert-coin blink'}>
+                            <h4 className={'insert-coin blink my-5'}>
                                 Insert Coin
                             </h4>
-                        </p>
+                        </div>
                     </main>
 
-                    <footer className="footer mt-auto">
+                    <footer className="footer my-5">
                         <div className="inner">
                             <div>
                                 <small>

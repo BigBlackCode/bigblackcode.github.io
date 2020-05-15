@@ -9,6 +9,10 @@
     margin-bottom: 2rem;
 }
 
+.landing .header .nav-main a {
+    font-family: 'PixelFont', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 .landing .cover-container {
     max-width: 50em;
 }
@@ -45,4 +49,8 @@
 
 .landing .insert-coin {
     font-family: 'PixelFont', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.landing .lead {
+    text-shadow: 0 0 3px black;
 }
