@@ -1,0 +1,48 @@
+.landing {
+    background-image: url('../../public/images/bigblackcode-banner.jpg');
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.landing .header {
+    margin-bottom: 2rem;
+}
+
+.landing .cover-container {
+    max-width: 50em;
+}
+
+.landing .cover {
+    padding: 0 1.5rem;
+}
+
+.landing .cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.landing .cover-heading {
+    color: #ff005785;
+    text-shadow: 1px 1px 1px #fef95f;
+}
+
+.landing .bigblackcode-button {
+    background: url('../../content/assets/button.png') center 100% no-repeat;
+    min-width: 215px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.landing .bigblackcode-button:hover {
+    background: url('../../content/assets/button-pressed.png') center 100% no-repeat;
+    cursor: pointer;
+}
+
+.landing .insert-coin {
+    color: #ffc107;
+}
+
+.landing .insert-coin {
+    font-family: 'PixelFont', 'Helvetica', 'Arial', 'sans-serif';
+}

@@ -1,0 +1,40 @@
+.layout {
+    width: 100%;
+}
+
+.layout .header-container {
+    background: url('../../public/images/bigblackcode-banner.jpg') 46% 40%;
+}
+
+.layout .header-container .header-brand {
+    color: #fff;
+}
+
+.layout .header-container .cover-container {
+    background: #12022a9c;
+}
+
+.layout .header-container header {
+    max-width: 50em;
+    margin: auto;
+}
+
+.layout main {
+    max-width: 50em;
+    margin: auto;
+}
+
+.layout .footer {
+    color: #4c4242;
+}
+
+@media (min-width: 48em) {
+    .layout .header-container .header {
+        margin-bottom: 0;
+    }
+
+    .layout .header-container .header-brand {
+        float: left;
+        margin-bottom: 0 !important;
+    }
+}

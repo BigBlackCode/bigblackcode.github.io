@@ -1,0 +1,92 @@
+/* Theme */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'PixelFont', 'Helvetica', 'Arial', 'sans-serif';
+    color: #4c4242;
+    margin-bottom: 1.5rem;
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('../../content/assets/pixel-font.ttf');
+}
+
+a,
+a:focus,
+a:hover {
+    color: #df4819;
+    text-decoration: underline;
+    box-shadow: none;
+}
+
+html,
+body,
+#___gatsby,
+#___gatsby > div,
+.landing {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+body {
+    color: #333;
+    background: #fafaf5;
+    line-height: 2;
+}
+
+
+.header-brand {
+    margin-bottom: 0;
+    width: 240px;
+}
+
+.nav-header .nav-link {
+    padding: .25rem 0;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.nav-header .nav-link:hover,
+.nav-header .nav-link:focus {
+    color: white;
+}
+
+.nav-header .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-header .active {
+    color: #fff;
+}
+
+.blink {
+    animation: blink-animation 1s steps(12, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        opacity: 0;
+    }
+}
+
+/* Footer */
+
+.footer {
+    color: rgba(255, 255, 255, .5);
+}
+
+@media (min-width: 48em) {
+    .header-brand {
+        float: left;
+    }
+
+    .nav-header {
+        float: right;
+    }
+}
